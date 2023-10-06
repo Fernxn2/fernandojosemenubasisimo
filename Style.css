@@ -1,0 +1,48 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
+header{
+   
+    display: flex;
+    background-color:#080A09 ;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    
+}
+.logo img{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    
+nav a{
+   
+   font-weight: 600;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+}
+nav a:hover{
+color: rgb(255, 208, 0);
+}
+
+}
+@media (max-width: 800px){
+header{
+
+    flex-direction: column;
+}
+nav{
+    padding: 10px 0;
+}}
